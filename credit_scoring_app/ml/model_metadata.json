@@ -1,0 +1,16 @@
+{
+  "project": "Credit Scoring Intelligence System",
+  "model_type": "XGBoost Classifier",
+  "artifact": "xgboost_credit_model.pkl",
+  "label_encoders": "label_encoders.pkl",
+  "feature_count": 86,
+  "roc_auc": 0.7615,
+  "accuracy": 0.7273,
+  "precision": 0.1765,
+  "recall": 0.6485,
+  "risk_categories": {
+    "0-30": "Low Risk",
+    "31-60": "Medium Risk",
+    "61-100": "High Risk"
+  }
+}

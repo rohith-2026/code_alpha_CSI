@@ -1,0 +1,36 @@
+# Local Python environments
+venv/
+.venv/
+env/
+ENV/
+
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Raw datasets and generated outputs
+application_train.csv/
+outputs_1/
+outputs/
+outputs_*/
+
+# Duplicate root-level model artifacts
+# The app uses credit_scoring_app/ml/ for deployment artifacts.
+models/
+
+# Local environment files
+.env
+.env.*
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# Logs and runtime files
+*.log
+*.sqlite
+*.sqlite3
